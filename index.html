@@ -19,7 +19,7 @@
             <div align="center">
                 <div class="logo">
                     <a href="#page2">
-                        <img src="images/logo.png" width="150" height="150"></a>
+                    <img src="images/logo.png" width="150" height="150"></a>
                 </div>
                 <div class="container">
             <div align="center">
@@ -194,8 +194,8 @@
 
 <div data-role="page" id="page5">
 <div data-role="header">
-<a href="#page" data-role="button" data-icon="arrow-l" data-iconpos="notext"></a>
-
+<a href="#page5" data-role="button" data-icon="arrow-l" data-iconpos="notext"></a>
+<a href="#page6" data-role="button" data-icon="arrow-r" data-iconpos="notext"></a>
 
 
     <div align="center">
@@ -217,18 +217,29 @@
                 
                 <div class="container">
               <div align="center">
-                 <input name="Fname" type="text" id="txtFirstName" placeholder="Enter First Name" maxlength="50" style="background-color: rgba(0, 0, 0, 0.26); color: #FFFFFF; border-color: #fed136; margin-bottom: 20px; clear:both;">
-                    
-     <input name="Lname" type="text" id="txtLastName" placeholder="Enter Last Name" maxlength="50" style="background-color: rgba(0, 0, 0, 0.26); color: #FFFFFF; border-color: #fed136; margin-bottom: 20px;">
-                   
-                    <input name="Eml" id="txtEmail" type="text" placeholder="Enter Email Id" style="background-color: rgba(0, 0, 0, 0.26); color: #FFFFFF; border-color: #fed136; margin-bottom: 20px;">
-
-               
-            </div> 
+                <div data-inline="true" data-type="horizontal">
+                  <button data-inline="true">My Friends</button>
+                  <button data-inline="true">Contacts</button>
+                  <div class="ui-grid-b">
+                    <div class="ui-block-a">Name</div>
+                    <div class="ui-block-b">Mobile No.</div>
+                    <div class="ui-block-c">
+                      <div data-role="fieldcontain">
+                        <fieldset data-role="controlgroup">
+                         <input type="checkbox" name="checkbox1" id="checkbox1_0" class="custom" value="" />
+                      
+                        </fieldset>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+                        
+              </div> 
             
             <div class="container">
                 <div align="center">
-                    <div class="contant" onclick="return CallUpdateUser()">Submit</div>
+                    <div class="contant" onclick="return CallUpdateUser()">Start to Ride!</div>
                 </div>
             </div>
             </div>
@@ -253,5 +264,71 @@
 </div>
 
 
+
+
+<div data-role="page" id="page6">
+<div data-role="header">
+<a href="#page" data-role="button" data-icon="arrow-l" data-iconpos="notext"></a>
+
+
+
+
+    <div align="center">
+    <div class="logo" style="margin-top:0px; margin-bottom:8px;">
+        <a href="#page2">
+          <img src="images/logo.png" width="150;" height="150px;"></a>
+      </div></div>	
+	</div>
+
+	<div data-role="content">	
+   
+	  
+            <div class="container">
+                <div align="center">
+                    <div class="welcome" style="margin-bottom:15px;">
+                        Add Friends – User ID
+                     </div>
+                </div>
+                
+                <div class="container">
+              <div align="center">
+                <div data-inline="true" data-type="horizontal">
+                  <button data-inline="true">Start Ride</button>
+                  <button data-inline="true">Finish Ride</button>
+                  
+                  <input name="Fname" type="text" id="txtFirstName" placeholder="Taxi Number" maxlength="50" style="background-color: rgba(0, 0, 0, 0.26); color: #FFFFFF; border-color: #fed136; margin-bottom: 20px; clear:both;">
+                    <input name="Fname" type="text" id="txtFirstName" placeholder="Expected Hours" maxlength="50" style="background-color: rgba(0, 0, 0, 0.26); color: #FFFFFF; border-color: #fed136; margin-bottom: 20px; clear:both;">
+                    
+                      <input name="Fname" type="text" id="txtFirstName" placeholder="Personal Message*" maxlength="50" style="background-color: rgba(0, 0, 0, 0.26); color: #FFFFFF; border-color: #fed136; margin-bottom: 50px; clear:both;">
+                       
+                </div>
+                        
+              </div> 
+            
+            <div class="container">
+                <div align="center">
+                    <div class="contant" onclick="return CallUpdateUser()">Start to Ride!</div>
+                </div>
+            </div>
+            </div>
+	</div>
+	
+</div>
+<nav class="navbar navbar-default navbar-fixed-bottom" style="background-color: #000;">
+	<div data-role="footer">
+    
+	   <div class="navbar-header page-scroll">
+
+                    <a class="navbar-brand page-scroll" href="#page10" style="margin-left: auto; margin-right: auto">
+                        <img src="images/taxi-col1.png" /></a>
+                    <a class="navbar-brand page-scroll" href="#page8" style="margin-left: auto; margin-right: auto">
+                        <img src="images/w_activity.png" /></a>
+                    <a class="navbar-brand page-scroll" href="#page6" style="margin-left: auto; margin-right: auto">
+                        <img src="images/user1.png" /></a>
+                    <a class="navbar-brand page-scroll" href="#page13" style="margin-left: auto; margin-right: auto">
+                        <img src="images/setting1.png" /></a>
+                </div>
+	</div></nav>
+</div>
 </body>
 </html>
