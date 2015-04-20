@@ -1,3 +1,19 @@
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('font/OpenSans-Regular-webfont.eot');
+    src: url('font/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/OpenSans-Regular-webfont.woff2') format('woff2'),
+         url('font/OpenSans-Regular-webfont.woff') format('woff'),
+         url('font/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('font/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
 .welcome
 {
 	margin-top:20px;
@@ -6,7 +22,7 @@
 	
 	text-align:center;
 	width:100%;
-	font-family:Arial, Helvetica, sans-serif;
+	font-family:"Palatino Linotype";
 	
 	
 	
@@ -19,23 +35,37 @@
 	font-style:italic;
 	text-align:center;
 	width:100%;
-	font-family:Arial, Helvetica, sans-serif;
+	font-family:"Palatino Linotype";
 	
 	
 }
 .contant
 {
 	color: #000000;
-	width:97%;
+	width:99%;
 	background-color:#FFCC00;
 	margin:2px;
 	padding:8px;
 	font-size:20px;
 	border-radius:5px;
 	text-shadow:none;
-		font-family:Arial, Helvetica, sans-serif;
+		font-family:"Palatino Linotype";
 		cursor:pointer;
 	
+
+}
+.wrong_password{
+	color:#fff;
+	font-size:12px;
+	padding-top:7px;
+
+} 
+.wrong_password a{
+	color:#fff;
+	font-size:12px;
+	padding-top:7px;
+	cursor:pointer;
+	text-decoration:none;
 
 }
 @media (min-width: 1200px) {
@@ -73,14 +103,19 @@
   float:left;
   
 }
-.navbar-fixed-bottom, .navbar-fixed-top {
+.taxisecu_footer {
     left: 0;
     position: fixed;
     right: 0;
     z-index: 1030;
 	bottom:0px;
+	display:none;
 }
+.wrong_password{
+	color:#fff;
+	font-size:12px;
 
+}
 }
 
 @media (max-width:430px){
@@ -122,14 +157,14 @@
 .contant
 {
 	color: #000000;
-	width:95%;
+	width:98%;
 	background-color:#FFCC00;
 	margin:2px;
 	padding:8px;
 	font-size:20px;
 	border-radius:5px;
 	text-shadow:none;
-		font-family:Arial, Helvetica, sans-serif;
+	font-family:"Palatino Linotype";
 		cursor:pointer;
 }
 .navbar-fixed-bottom, .navbar-fixed-top {
@@ -146,5 +181,168 @@
     line-height: 20px;
     padding:12px;
 }
+.wrong_password{
+	color:#fff;
+	font-size:12px;
 
+}
+
+}
+@media (max-width:768px){
+
+.mob_txt {
+  color: #FFFFFF;
+  border-color: #fed136;
+  width: 12%;
+  float: left;
+  margin-left: 5px;
+  float: left;
+}
+.mob_txtr{
+	
+color: #FFFFFF;
+  border-color: #fed136;
+  width: 86%;
+  float: left;
+  margin-left: 9px;
+  float: left;
+  
+}
+.wrong_password{
+	color:#fff;
+	font-size:12px;
+
+}
+}
+
+@media (max-width:745px){
+
+.mob_txt {
+  color: #FFFFFF;
+  border-color: #fed136;
+  width: 12%;
+  float: left;
+  margin-left: 5px;
+  float: left;
+}
+.mob_txtr{
+	
+color: #FFFFFF;
+  border-color: #fed136;
+  width: 85%;
+  float: left;
+  margin-left: 15px;
+  float: left;
+  
+}	
+}
+@media (max-width:712px){
+
+.mob_txt {
+  color: #FFFFFF;
+  border-color: #fed136;
+  width: 13%;
+  float: left;
+  margin-left: 5px;
+  float: left;
+}
+.mob_txtr{
+	
+color: #FFFFFF;
+  border-color: #fed136;
+  width: 84%;
+  float: left;
+  margin-left: 13px;
+  float: left;
+  
+}	
+}
+@media (max-width:647px){
+
+.mob_txt {
+  color: #FFFFFF;
+  border-color: #fed136;
+  width: 13%;
+  float: left;
+  margin-left: 5px;
+  float: left;
+}
+.mob_txtr{
+	
+color: #FFFFFF;
+  border-color: #fed136;
+  width: 83%;
+  float: left;
+  margin-left: 13px;
+  float: left;
+  
+}	
+}
+@media (max-width:496px){
+
+.mob_txtr{
+	
+color: #FFFFFF;
+  border-color: #fed136;
+  width: 82%;
+  float: left;
+  margin-left: 13px;
+  float: left;
+  
+}	
+}
+@media (max-width:496px){
+
+.mob_txtr{
+	
+color: #FFFFFF;
+  border-color: #fed136;
+  width: 82%;
+  float: left;
+  margin-left: 13px;
+  float: left;
+  
+}	
+}
+@media (max-width:406px){
+
+.mob_txtr{
+	
+color: #FFFFFF;
+  border-color: #fed136;
+  width: 81%;
+  float: left;
+  margin-left: 13px;
+  float: left;
+  
+}	
+}
+@media (max-width:346px){
+
+
+
+.mob_txt {
+  color: #FFFFFF;
+  border-color: #fed136;
+  width: 15%;
+  float: left;
+  margin-left:3px;
+  float: left;
+}
+
+.mob_txtr{
+	
+color: #FFFFFF;
+  border-color: #fed136;
+  width: 81%;
+  float: left;
+  margin-left:5px;
+  float: left;
+  
+}	
+.wrong_password{
+	color:#fff;
+	font-size:12px;
+
+}
 }
