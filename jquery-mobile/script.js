@@ -1,5 +1,4 @@
 $(document).ready(function () {
-	 $.noConflict();
 	$('#menu-toggle').click(function(){
 		if($('#menu').hasClass('open')){
 			$('#menu').removeClass('open');
