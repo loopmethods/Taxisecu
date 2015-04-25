@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
@@ -14,412 +14,263 @@
 <script src="jquery-mobile/bootstrap.min.js"></script>
 <script type="text/javascript" src="jquery-mobile/script.js"></script>
 
-
-</head> 
-<body> 
-
+</head>
+<body>
+<!--Start of the Welcome of the Texisecu -->
 <div data-role="page" id="page">
-	<div data-role="header">
-		<div class="container">
-            <div align="center">
-                <div class="logo">
-                    <a href="#page2">
-                    <img src="images/logo.png" width="150" height="150"></a>
-                </div>
-                <div class="container">
-            <div align="center">
-                <div class="welcome">
-            Welcome To TaxiSecu ! 
-                </div>
-                <div class="welcome_one">Ensuring Safe Travelling...</div><br>
-                    <p style="padding:5px 10px 10px 10px; line-height:20px; text-align:justify; font-size:14px;">The Sole AIM of the App is to Feel You Secure by Updating Ur Selected Friends about Ur Current Ride START, Positioning and Successful Ride Finish!</p>
-            </div>
-        </div>
-            </div>
-        </div>
-	</div>
-    	<div data-role="content">	
-	<div class="container">
-    <div align="center">
-
-    <input name="Fname" type="text" id="txtFirstName" placeholder="Enter Security CODE " maxlength="50" style="background-color: rgba(0, 0, 0, 0.26); color: #FFFFFF; border-color: #fed136; margin-bottom: 20px;">
-
-    
-    </div>
-           
-            
-        </div>
-        
-        <div class="container">
-                <div align="center">
-                    <div class="contant">Enter</div>
-                </div>
-            </div>
-	</div>
-</div>
-
-<div data-role="page" id="page2">
-	<div data-role="header">
-    <a href="#page" data-role="button" data-icon="arrow-l" data-iconpos="notext"></a>
-    <a href="#page3" data-role="button" data-icon="arrow-r" data-iconpos="notext"></a>
-	
-        <div align="center"> 		<div class="logo" style="margin-top:0px; margin-bottom:8px;">
-                    <a href="#page2">
-                        <img src="images/logo.png" width="150;" height="150px;"></a>
-                </div></div>	
-	</div>
- 	
-	<div data-role="content">	
+  <div data-role="header">
     <div class="container">
-                <div align="center">
-                    <div class="welcome" style="margin-bottom:15px;">
-                        Register Yourself
-                     </div>
-                </div>
-                
-                <div class="container">
-                <div align="center">
-                
-                   <div class="elemt-inpt">
-           
-   <select class="country">
-            <option value="usa">Sellect Country</option>
-            <option value="india">India</option>
-            <option value="uk">United Kingdom</option>
-             <option value="usa">United States</option>
-            <option value="india">India</option>
-            <option value="uk">United Kingdom</option>
-             <option value="usa">United States</option>
-            <option value="india">India</option>
-          
-        </select> 
-        </div> 
-                <div class="mob_txt">
-    <input name="Fname" type="text" id="txtFirstName" placeholder="" maxlength="50" style="background-color: rgba(0, 0, 0, 0.26); color: #FFFFFF; border-color: #fed136; margin-bottom: 20px;">
+      <div align="center">
+        <div class="logo"> <a href="#page2"> <img src="images/logo.png" width="150" height="150"></a> </div>
+        <div class="container">
+          <div align="center">
+            <div class="welcome"> Welcome To TaxiSecu ! </div>
+            <div class="welcome_one">Keep Your Travel by Taxisecu!</div>
+            <br>
+          </div>
+        </div>
+      </div>
     </div>
-                  <div class="mob_txtr">
-    <input name="Fname" type="text" id="txtFirstName" placeholder="Enter Mobile No." maxlength="50" style="background-color: rgba(0, 0, 0, 0.26); color: #FFFFFF; border-color: #fed136; margin-bottom: 20px;">
-    </div>
-                 
-                   
-                    <input name="Eml" id="txtEmail" type="text" placeholder="Enter Email Id" style="background-color: rgba(0, 0, 0, 0.26); color: #FFFFFF; border-color: #fed136; margin-bottom: 20px;">
-               
-            </div>
-            
-            <div class="container">
-                <div align="center">
-                    <div class="contant" onclick="return CallUpdateUser()">Save Profile</div>
-                </div>
-            </div>
-            </div>
-	</div>
-	<div data-role="footer">
-		<h4></h4>
-	</div>
-</div></div>
-
-
-<div data-role="page" id="page3">
-<div id="menu-toggle">
-		<img src="images/menu.png" width=20 height=20 alt="Menu"></img>
-	</div>
-
-	<nav id="menu">
-		<a href="#">Start Ride</a>
-		<a href="#">Manage Profile</a>
-		<a href="#">Add Friends</a>
-		<a href="#">Ride History</a>
-		<a href="#">Change Password</a>
-        <a href="#">Logout</a>
-	</nav>
-<div data-role="header">
-    <div align="center"> <div class="logo" style="margin-top:0px; margin-bottom:8px;">
-                    <a href="#page2">
-                        <img src="images/logo.png" width="150;" height="150px;"></a>
-    </div></div>	
   </div>
-	<div data-role="content">
-  	 <div class="container">
-                <div align="center">
-                    <div class="welcome" style="margin-bottom:15px;">
-                        User Login
-                  </div>
-                </div>
-                
-                <div class="container">
-                <div align="center">
-                
-                        <input name="Fname" type="text" id="txtFirstName" placeholder="Mobile No./Email Id" maxlength="50" style="background-color: rgba(0, 0, 0, 0.26); color: #FFFFFF; border-color: #fed136; margin-bottom: 20px; clear:both;">
-                   
-                    <input name="Eml" id="txtEmail" type="text" placeholder="Password" style="background-color: rgba(0, 0, 0, 0.26); color: #FFFFFF; border-color: #fed136; margin-bottom: 20px;">
-               
-            </div>
-            
-            <div class="container">
-                <div align="center">
-                    <div class="contant">Login</div>
-                    <div class="wrong_password"><a href="#">Forget Password</a></div>
-                </div>
-            </div>
-            </div>
-	</div>
-	</div></div>
+  <div data-role="content">
+    <div align="center"> <a href="#page2">
+      <div class="contant_home">CONTINUE</div>
+      </a> </div>
+  </div>
+</div>
+<!--End of the Welcome of the Texisecu -->
+<!--Start of the Register yourself -->
+<div data-role="page" id="page2">
+  <div data-role="header"> 
+     <div align="center">
+      <div class="logo" style="margin-top:0px; margin-bottom:8px;"><a href="#page2"><img src="images/logo.png" width="150;" height="150px;"></a> </div>
+    </div>
+  </div>
+  <div data-role="content">
+  
+    <div class="container">
+      <div align="center">
+        <div class="welcome"> Register Yourself </div>
+      </div>
+       <form method="post">
+        <div class="container">
+        <div class="elemt-inpt">
+            <select class="country">
+              <option value="usa">Sellect Country</option>
+              <option value="india">India</option>
+              <option value="uk">United Kingdom</option>
+              <option value="usa">United States</option>
+              <option value="india">India</option>
+              <option value="uk">United Kingdom</option>
+              <option value="usa">United States</option>
+              <option value="india">India</option>
+            </select>
+          </div>
+          
+          <div class="mob_txt">
+          <input type="text" name="textinput" id="textinput" placeholder="+91" value="" required class="text_area"/>
+          </div>
+          <div class="mob_txtr">
+          <input type="text" name="textinput" id="textinput" placeholder="Enter Mobile No." value="" required class="text_area"/>
+          </div>
+         </div>
+      
+        <div class="contant">
+        <a href="#page3"><button type="submit" class="prfil-btn" >CONTINUE</button></a>
+        
+        </div>
+      </form>
+      
+    </div>
     
-
-<div data-role="page" id="page4">
-<div data-role="header">
-<a href="#page2" data-role="button" data-icon="arrow-l" data-iconpos="notext"></a>
-<a href="#page4" data-role="button" data-icon="arrow-r" data-iconpos="notext"></a>	
-
-    <div align="center"> 		<div class="logo" style="margin-top:0px; margin-bottom:8px;">
-                    <a href="#page2">
-                        <img src="images/logo.png" width="150;" height="150px;"></a>
-                </div></div>	
-	</div>
-	<div data-role="content">
-  	 <div class="container">
-                <div align="center">
-                    <div class="welcome" style="margin-bottom:15px;">
-                        Manage Profile – User ID
-                     </div>
-                </div>
-                
-                <div class="container">
-                <div align="center">
-                
-                        <input name="Fname" type="text" id="txtFirstName" placeholder="Enter First Name" maxlength="50" style="background-color: rgba(0, 0, 0, 0.26); color: #FFFFFF; border-color: #fed136; margin-bottom: 20px; clear:both;">
-                    
-                   
-                        <input name="Lname" type="text" id="txtLastName" placeholder="Enter Last Name" maxlength="50" style="background-color: rgba(0, 0, 0, 0.26); color: #FFFFFF; border-color: #fed136; margin-bottom: 20px;">
-                   
-                    <input name="Eml" id="txtEmail" type="text" placeholder="Enter Email Id" style="background-color: rgba(0, 0, 0, 0.26); color: #FFFFFF; border-color: #fed136; margin-bottom: 20px;">
-               
-            </div>
-            
-            <div class="container">
-                <div align="center">
-                    <div class="contant" onclick="return CallUpdateUser()">Save Profile</div>
-                </div>
-            </div>
-            </div>
-	</div>
-	</div></div>
+  </div>
+    </div>
 
 
-<div data-role="page" id="page5">
-<div data-role="header">
-<a href="#page3" data-role="button" data-icon="arrow-l" data-iconpos="notext"></a>
-<a href="#page5" data-role="button" data-icon="arrow-r" data-iconpos="notext"></a>
-	
+<!--Start of the Register yourself -->
 
-    <div align="center"> 		<div class="logo" style="margin-top:0px; margin-bottom:8px;">
-                    <a href="#page2">
-                        <img src="images/logo.png" width="150;" height="150px;"></a>
-                </div></div>	
-	</div>
-
-	<div data-role="content">	
-   
-	  
-            <div class="container">
-                <div align="center">
-                    <div class="welcome" style="margin-bottom:15px;">
-                        Add Friends – User ID
-                     </div>
-                </div>
-                
-                <div class="container">
-                <div align="center">
-                 <input name="Fname" type="text" id="txtFirstName" placeholder="Enter First Name" maxlength="50" style="background-color: rgba(0, 0, 0, 0.26); color: #FFFFFF; border-color: #fed136; margin-bottom: 20px; clear:both;">
-                    
-     <input name="Lname" type="text" id="txtLastName" placeholder="Enter Last Name" maxlength="50" style="background-color: rgba(0, 0, 0, 0.26); color: #FFFFFF; border-color: #fed136; margin-bottom: 20px;">
-                   
-                    <input name="Eml" id="txtEmail" type="text" placeholder="Enter Email Id" style="background-color: rgba(0, 0, 0, 0.26); color: #FFFFFF; border-color: #fed136; margin-bottom: 20px;">
-
-               
-            </div>
-            
-            <div class="container">
-                <div align="center">
-                    <div class="contant" onclick="return CallUpdateUser()">Submit</div>
-                </div>
-            </div>
-            </div>
-	</div>
-	<div data-role="footer">
-		<h4></h4>
-	</div>
-</div>
-	
-</div>
-
-
-
-<div data-role="page" id="page6">
-<div data-role="header">
-<a href="#page5" data-role="button" data-icon="arrow-l" data-iconpos="notext"></a>
-<a href="#page6" data-role="button" data-icon="arrow-r" data-iconpos="notext"></a>
-
-
+<!-- Start Enter your Security code -->
+<div data-role="page" id="page3">
+  <div data-role="header">
     <div align="center">
-    <div class="logo" style="margin-top:0px; margin-bottom:8px;">
-        <a href="#page2">
-          <img src="images/logo.png" width="150;" height="150px;"></a>
-      </div></div>	
-	</div>
-
-	<div data-role="content">	
-   
-	  
-            <div class="container">
-                <div align="center">
-                    <div class="welcome" style="margin-bottom:15px;">
-                        Add Friends – User ID
-                     </div>
-                </div>
-                
-                <div class="container">
-              <!--<div align="center">
-                <div data-inline="true" data-type="horizontal">
-                  <button data-inline="true">My Friends</button>
-                  <button data-inline="true">Contacts</button>
-                  <div class="ui-grid-b">
-                    <div class="ui-block-a">Name</div>
-                    <div class="ui-block-b">Mobile No.</div>
-                    <div class="ui-block-c">
-                      <div data-role="fieldcontain">
-                        <fieldset data-role="controlgroup">
-                         <input type="checkbox" name="checkbox1" id="checkbox1_0" class="custom" value="" />
-                      
-                        </fieldset>
-                      </div>
-                    </div>
-                  </div>
-                  
-                </div>
-                        
-              </div>--> 
-              <ul class="nav nav-tabs">
-  <li class="active"><a href="#tab_a" data-toggle="tab">Tab A</a></li>
-  <li><a href="#tab_b" data-toggle="tab">Tab B</a></li>
-
-</ul>
-<div class="tab-content">
-        <div class="tab-pane active" id="tab_a">
-             <h4>Pane A</h4>
-            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames
-                ac turpis egestas.</p>
+      <div class="logo" style="margin-top:0px; margin-bottom:8px;"> <a href="#page2"> <img src="images/logo.png" width="150;" height="150px;"></a> </div>
+    </div>
+  </div>
+  <div data-role="content">
+     <form method="post">
+    <div class="container">
+      <div align="center">
+        <div class="welcome"style="margin-bottom:15px;"> Enter your Security code </div>
+      </div>
+      <div class="container">
+        <div align="center">
+          <input type="text" name="textinput" id="textinput" placeholder="Security code" value="" required class="text_area"/>        </div>
+        <div class="contant">
+        <a href="#page4"> <button type="submit" class="prfil-btn" >CONTINUE</button></a>
+        
         </div>
-        <div class="tab-pane" id="tab_b">
-             <h4>Pane B</h4>
-            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames
-                ac turpis egestas.</p>
-        </div>
-        <div class="tab-pane" id="tab_c">
-             <h4>Pane C</h4>
-            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames
-                ac turpis egestas.</p>
-        </div>
-        <div class="tab-pane" id="tab_d">
-             <h4>Pane D</h4>
-            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames
-                ac turpis egestas.</p>
-        </div>
+      </div>
+    </div>
+    </form>
+  </div>
 </div>
-            </div>
-            <div class="container">
-                <div align="center">
-                    <div class="contant" onclick="return CallUpdateUser()">Start to Ride!</div>
-                </div>
-            </div>
-            </div>
-	</div>
-	
+<!-- End  Security code --> 
+
+<!-- Manage Profile User ID -->
+<div data-role="page" id="page4">
+<div class="pageh">
+    <img src="logo.png">
+        </div>
+ 
+  <div data-role="content">
+   <form method="post">
+       <div class="container">
+        <div align="center">
+
+          <div class="logo" style="margin-top:50px;"> <img src="images/profile.png" width="120" height="120"> </div>
+          <div class="welcome"> Welcome, 918802989146 </div>
+
+          <input type="text" name="textinput" id="text_mpui_fn" placeholder="Enter First Name" value="" required class="text_area"/>
+         <input type="text" name="textinput" id="text_mpui_ln" placeholder="Enter Last Name" value="" required class="text_area"/>
+<input type="text" name="textinput" id="text_mpui_ei" placeholder="Enter Email" value="" required class="text_area"/>
+        </div>
+        <div class="contant">
+         <a href="#page5"><button type="submit" class="prfil-btn" >SAVE PROFILE</button></a>
+        
+        </div>
+      </div>
+      </form>
+    </div>
+  </div>
 </div>
-<nav class="taxisecu_footer" style="background-color: #000;">
+<!-- End Manage Profile User ID --> 
+
+<!-- taxi information -->
+<div data-role="page" id="page5">
+<div class="pageh">
+    <img src="logo.png">
+        </div>
+   <div data-role="content">
+    <form method="post">
+    <div class="container">
+        <div align="center">
+
+          <div class="logo" style="margin-top:50px;"> <img src="images/profile.png" width="120" height="120"> </div>
+          <div class="welcome"> Welcome, 918802989146 </div>
+          <input type="text" name="textinput" id="text_mpui_fn" placeholder="Taxi No..." value="" required class="text_area"/>
+     	
+        </div>
+        <div class="contant">
+        <a href="#page6"> <button type="submit" class="prfil-btn" >START RIDE</button></a>
+        
+        </div>
+    </div>
+    </form>
+    <nav class="navbar navbar-default navbar-fixed-bottom" style="background-color: #000;">
 	<div data-role="footer">
     
 	   <div class="navbar-header page-scroll">
 
                     <a class="navbar-brand page-scroll" href="#page10" style="margin-left: auto; margin-right: auto">
-                        <img src="images/taxi-col1.png" /></a>
+                        <img src="images/user-col1.png" />	</a>
                     <a class="navbar-brand page-scroll" href="#page8" style="margin-left: auto; margin-right: auto">
                         <img src="images/w_activity.png" /></a>
                     <a class="navbar-brand page-scroll" href="#page6" style="margin-left: auto; margin-right: auto">
-                        <img src="images/user1.png" /></a>
+                        <img src="images/taxi1.png" /></a>
                     <a class="navbar-brand page-scroll" href="#page13" style="margin-left: auto; margin-right: auto">
                         <img src="images/setting1.png" /></a>
                 </div>
 	</div></nav>
+  </div>
 </div>
+<!-- End Change Password --> 
+<!-- Add Friends User ID -->
+<div data-role="page" id="page6">
+<div class="pageh">
+    <img src="logo.png">
+        </div>
+   <div data-role="content">
+    <form method="post">
+    <div class="container">
+        <div align="center">
 
+          <div class="logo" style="margin-top:50px;"> <img src="images/profile.png" width="120" height="120"> </div>
+          <div class="welcome"> Welcome, 918802989146 </div>
+          <input type="text" name="textinput" id="text_mpui_fn" placeholder="HR 51 X 0954" value="" required class="text_area"/>
+          <input type="text" name="textinput" id="text_mpui_fn" placeholder="Riding from last 2:15 hours" value="" required class="text_area"/>
+     	<div class="welcome_profile">Verification :  SMS Send to <a href="#" class="fav_color">Favorites</a></div>
+        </div>
+        <div class="contant_finish">
+        <a href="#page7"> <button type="submit" class="prfil-btn" >FINISH RIDE</button></a>
+        
+        </div>
+    </div>
+    </form>
+    <nav class="navbar navbar-default navbar-fixed-bottom" style="background-color: #000;">
+	<div data-role="footer">
+    
+	   <div class="navbar-header page-scroll">
 
+                    <a class="navbar-brand page-scroll" href="#page10" style="margin-left: auto; margin-right: auto">
+                        <img src="images/user-col2.png" />	</a>
+                    <a class="navbar-brand page-scroll" href="#page8" style="margin-left: auto; margin-right: auto">
+                        <img src="images/w_activity.png" /></a>
+                    <a class="navbar-brand page-scroll" href="#page6" style="margin-left: auto; margin-right: auto">
+                        <img src="images/taxi1.png" /></a>
+                    <a class="navbar-brand page-scroll" href="#page13" style="margin-left: auto; margin-right: auto">
+                        <img src="images/setting1.png" /></a>
+                </div>
+	</div></nav>
+  </div>
+</div>
+<!-- End Add Friends User ID --> 
 
 
 <div data-role="page" id="page7">
-<div data-role="header">
-<a href="#page" data-role="button" data-icon="arrow-l" data-iconpos="notext"></a>
+<div class="pageh">
+    <img src="logo.png">
+        </div>
+   <div data-role="content">
+    <form method="post">
+    <div class="container">
+      <div align="center">
+
+          <div class="logo" style="margin-top:50px;"> <img src="images/profile.png" width="120" height="120"> </div>
+          <div class="welcome"> Like to Rate Ride </div>
+
+    <input type="radio" name="radiogroup" id="radio-1" checked>
+    <label for="radio-1" class="rad_button">Average  (default average)</label>
 
 
+      <input type="radio" name="radiogroup1" id="radio-2">
+    <label for="radio-2" class="rad_button">Good</label>     
 
-
-    <div align="center">
-    <div class="logo" style="margin-top:0px; margin-bottom:8px;">
-        <a href="#page2">
-          <img src="images/logo.png" width="150;" height="150px;"></a>
-      </div></div>	
-	</div>
-
-	<div data-role="content">	
-   
-	  
-            <div class="container">
-                <div align="center">
-                    <div class="welcome" style="margin-bottom:15px;">
-                        Add Friends – User ID
-                     </div>
-                </div>
-                
-                <div class="container">
-              <div align="center">
-                <div data-inline="true" data-type="horizontal">
-                  <button data-inline="true">Start Ride</button>
-                  <button data-inline="true">Finish Ride</button>
-                  
-                  <input name="Fname" type="text" id="txtFirstName" placeholder="Taxi Number" maxlength="50" style="background-color: rgba(0, 0, 0, 0.26); color: #FFFFFF; border-color: #fed136; margin-bottom: 20px; clear:both;">
-                    <input name="Fname" type="text" id="txtFirstName" placeholder="Expected Hours" maxlength="50" style="background-color: rgba(0, 0, 0, 0.26); color: #FFFFFF; border-color: #fed136; margin-bottom: 20px; clear:both;">
-                    
-                      <input name="Fname" type="text" id="txtFirstName" placeholder="Personal Message*" maxlength="50" style="background-color: rgba(0, 0, 0, 0.26); color: #FFFFFF; border-color: #fed136; margin-bottom: 50px; clear:both;">
-                       
-                </div>
-                        
-              </div> 
-            
-            <div class="container">
-                <div align="center">
-                    <div class="contant" onclick="return CallUpdateUser()">Start to Ride!</div>
-                </div>
-            </div>
-            </div>
-	</div>
-	
-</div>
-<nav class="navbar navbar-default navbar-fixed-bottom" style="background-color: #000;">
+   <input type="radio" name="radiogroup2" id="radio-3">
+    <label for="radio-3" class="rad_button">Excellent </label>     
+        <div class="contant">
+        <a href="#page"> <button type="submit" class="prfil-btn" >CONTIUNE</button></a>
+        
+  
+        
+        </div>
+    </div>
+    </form>
+    <nav class="navbar navbar-default navbar-fixed-bottom" style="background-color: #000;">
 	<div data-role="footer">
     
 	   <div class="navbar-header page-scroll">
 
                     <a class="navbar-brand page-scroll" href="#page10" style="margin-left: auto; margin-right: auto">
-                        <img src="images/taxi-col1.png" /></a>
+                        <img src="images/user-col1.png" />	</a>
                     <a class="navbar-brand page-scroll" href="#page8" style="margin-left: auto; margin-right: auto">
                         <img src="images/w_activity.png" /></a>
                     <a class="navbar-brand page-scroll" href="#page6" style="margin-left: auto; margin-right: auto">
-                        <img src="images/user1.png" /></a>
+                        <img src="images/taxi1.png" /></a>
                     <a class="navbar-brand page-scroll" href="#page13" style="margin-left: auto; margin-right: auto">
                         <img src="images/setting1.png" /></a>
                 </div>
 	</div></nav>
+  </div>
 </div>
-
 </body>
 </html>

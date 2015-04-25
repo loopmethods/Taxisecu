@@ -1566,7 +1566,7 @@ input[type="search"] {
 
 input[type="radio"],
 input[type="checkbox"] {
-  margin: 4px 0 0;
+  margin:-3px 1px 0;
   margin-top: 1px \9;
   /* IE8-9 */
 
@@ -2892,7 +2892,8 @@ button.close {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eeeeee;
+  background-color: #fff;
+ 
 }
 
 .nav > li.disabled > a {
@@ -2951,15 +2952,15 @@ button.close {
 
 .nav-tabs > li > a:hover {
   border-color: #eeeeee;
+  color:#000000;
+ 
 }
 
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  color: #555555;
   cursor: default;
-  background-color: #ffffff;
-  border: 1px solid #dddddd;
+  background-color: #ffcc00;
   border-bottom-color: transparent;
 }
 
@@ -3234,7 +3235,7 @@ button.close {
   float: left;
   padding-top: 15px;
   padding-bottom: 15px;
-  margin-right: 7.5px;
+  padding-right:4.5px;
   font-size: 18px;
   line-height: 20px;
   color: #777777;
