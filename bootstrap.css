@@ -3238,9 +3238,10 @@ button.close {
   float: left;
   padding-top: 15px;
   padding-bottom: 15px;
-  padding-right:10px;
+  padding-right:15px;
   font-size: 18px;
   line-height: 20px;
+  padding-left:5px;
   color: #777777;
 }
 
