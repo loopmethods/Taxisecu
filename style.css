@@ -392,7 +392,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', end
     font-size: 18px;
     height:90px;
     line-height: 20px;
-    padding:5px 9px 5px 0px;
+    padding:5px 9px 5px 15px;
 }
 .wrong_password{
 	color:#fff;
@@ -531,6 +531,13 @@ color: #FFFFFF;
   float: left;
   
 }	
+.navbar-brand {
+  float: left;
+  font-size: 18px;
+  height: 90px;
+  line-height: 20px;
+  padding: 5px 9px 5px 8px;
+}
 }
 
 @media (max-width:406px){
@@ -546,6 +553,30 @@ color: #FFFFFF;
   
 }	
 }
+@media (max-width:360px){
+	
+	.navbar-brand {
+  float: left;
+  font-size: 18px;
+  height: 90px;
+  line-height: 20px;
+  padding: 5px 9px 5px 15px;
+}
+}
+
+@media (max-width:349px){
+	
+	.navbar-brand {
+  float: left;
+  font-size: 18px;
+  height: 90px;
+  line-height: 20px;
+  padding: 5px 9px 5px 8px;
+}
+}
+
+
+
 @media (max-width:346px){
 
 
@@ -916,7 +947,7 @@ color: #FFFFFF;
   float: left;
   padding-top: 15px;
   padding-bottom: 15px;
-  padding-right: 5px !important;
+  padding-right: 0px !important;
   font-size: 18px;
   line-height: 20px;
   color: #777777;
