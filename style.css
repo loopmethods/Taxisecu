@@ -11,6 +11,7 @@
 
 }
 
+
 .pageh
 {
 background-color:#000;
@@ -155,12 +156,16 @@ z-index:999;
 }
 .favourate_bg{
 	width:100%;
-	height:400px;
-	padding:0px 0px 20px 0px;
 	background-color:#FFF;
     margin:34px auto 0 auto;
-    overflow-x: hidden;
-    overflow-y:  scroll;
+    position:absolute; 
+    z-index:1;
+    top:0px; bottom:84px; left:0;
+    width:100%;
+    background:#aaa;
+    overflow:auto;
+
+
 	
 }
 
@@ -174,7 +179,7 @@ z-index:999;
 	
 .favourate_bg_color_lt{
 	width:80%;
-	height:50px;
+	height:55px;
 	padding:5px 0px 5px 10px;
 	background-color:#FFF;
     margin: 0 auto 0 auto;
@@ -184,7 +189,7 @@ z-index:999;
 }
 .favourate_bg_color_rt{
 	width:20%;
-	height:50px;
+	height:55px;
 	padding:16px 0px 5px 5px;
 	background-color:#FFF;
     margin: 0 auto 0 auto;
@@ -197,21 +202,21 @@ z-index:999;
 	    margin: 0 auto 0 auto;
 		padding:0px 0px 0px 0px;
 		float:left; font-weight:bold;
-		font-size:14px;
+		font-size:16px;
 		font-family:"Open Sans";
 
 }
 
 .favourate_change_color{
 	width:100%;
-	height:50px;
+	height:55px;
 	padding:0px 0px 0px 0px;
 	background-color:#f6f4f4;
     margin: 0 auto 0 auto;
 	}
 .favourate_change_color_lt{
 	width:80%;
-	height:50px;
+	height:55px;
 	padding:5px 0px 5px 10px;
 	margin: 0 auto 0 auto;
 	background-color:#f6f4f4;
@@ -221,7 +226,7 @@ z-index:999;
 }
 .favourate_change_color_rt{
 	width:20%;
-	height:50px;
+	height:55px;
 	padding:16px 0px 5px 5px;
     margin: 0 auto 0 auto;
 	background-color:#f6f4f4;
@@ -239,7 +244,14 @@ z-index:999;
 		
 
 }
-.ui-content_fav{border-width:0;overflow-y:hidden;padding:0px; 
+.ui-content_fav{border-width:0;overflow-y:hidden;padding:0px;position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
 
 }
 .default-contact
@@ -955,7 +967,7 @@ color: #FFFFFF;
 }
 .favourate_bg {
   width: 100%;
-  height: 445px;
+  height:415px;
   padding: 0px 0px 20px 0px;
   background-color: #FFF;
   margin: 34px auto 0 auto;
@@ -1010,7 +1022,7 @@ height:50px !important;
   margin: 34px auto 0 auto;
   overflow-x: hidden;
   overflow-y: scroll;
-  position:fixed;
+ 
 }
 .navbar-brand {
   float: left;
