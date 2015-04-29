@@ -33,7 +33,6 @@ z-index:999;
 	margin-top:20px;
 	color: #FFF;
 	font-size:22px;
-	
 	text-align:center;
 	width:100%;
 	font-family:"Palatino Linotype";
@@ -75,20 +74,15 @@ z-index:999;
 	font-family:"Palatino Linotype";
 	cursor:pointer;
 	padding:8px;
-	
-	
-	
-
 }
 .text_area{
-	background-color: rgba(0, 0, 0, 0.26) !important;
-	 color: #FFFFFF !important; 
-	 border-color: #fed136 !important;
-	  margin-bottom: 20px;
-	 clear:both;
+background-color: rgba(0, 0, 0, 0.26) !important;
+color: #FFFFFF !important; 
+border-color: #fed136 !important;
+margin-bottom: 20px;
+clear:both;
 	
 }
-
 
 .contant
 {
@@ -164,8 +158,6 @@ z-index:999;
     width:100%;
     background:#aaa;
     overflow:auto;
-
-
 	
 }
 
@@ -279,9 +271,174 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', end
   padding:10px 0px 10px 0px;
   background-color:#f8f8f8;
 
-  
-  
+}
 
+
+.default_phone{
+	width:100%;
+	background-color:#FFF;
+    margin:81px auto 0 auto;
+    position:absolute; 
+    z-index:1;
+    top:0px; bottom:84px; left:0;
+    width:100%;
+    background:#aaa;
+    overflow:auto;
+
+}
+.default_phonebook{
+	width:100%;
+	height:auto;
+	padding:0px 0px 0px 0px;
+	background-color:#FFF;
+    margin: 0 auto 0 auto;
+	}
+	
+.default_phonebook_lt{
+	width:80%;
+	height:55px;
+	padding:5px 0px 5px 10px;
+	background-color:#FFF;
+    margin: 0 auto 0 auto;
+	float:left;
+    line-height:22px;
+	border-bottom:1px solid #acacac;
+}
+.default_phonebook_rt{
+	width:10%;
+	height:55px;
+	padding:23px 0px 5px 5px;
+	background-color:#FFF;
+    margin: 0 auto 0 auto;
+	float:left;
+	line-height:22px;
+	border-bottom:1px solid #acacac;
+}
+
+.default_phonebook_rt1{
+	width:10%;
+	height:55px;
+	padding:16px 0px 5px 5px;
+	background-color:#FFF;
+    margin: 0 auto 0 auto;
+	float:left;
+	line-height:22px;
+	border-bottom:1px solid #acacac;
+}
+
+.default_phonebook_lt span{
+	    margin: 0 auto 0 auto;
+		padding:0px 0px 0px 0px;
+		float:left; font-weight:bold;
+		font-size:16px;
+		font-family:"Open Sans";
+
+}
+
+.default_phonebook_color{
+	width:100%;
+	height:55px;
+	padding:0px 0px 0px 0px;
+	background-color:#f6f4f4;
+    margin: 0 auto 0 auto;
+	}
+.default_phonebook_color_lt{
+	width:80%;
+	height:55px;
+	padding:5px 0px 5px 10px;
+	margin: 0 auto 0 auto;
+	background-color:#f6f4f4;
+	float:left;
+    line-height:22px;
+	border-bottom:1px solid #acacac;
+}
+.default_phonebook_color_rt{
+	width:10%;
+	height:55px;
+	padding:23px 0px 5px 5px;
+    margin: 0 auto 0 auto;
+	background-color:#f6f4f4;
+	float:left;
+	line-height:22px;
+	border-bottom:1px solid #acacac;
+}
+.default_phonebook_color_rt1{
+	width:10%;
+	height:55px;
+	padding:16px 0px 5px 5px;
+    margin: 0 auto 0 auto;
+	background-color:#f6f4f4;
+	float:left;
+	line-height:22px;
+	border-bottom:1px solid #acacac;
+}
+
+
+
+.default_phonebook_color_lt span{
+	    margin: 0 auto 0 auto;
+		padding:0px 0px 0px 0px;
+		float:left; font-weight:bold;
+		font-size:16px;
+		font-family:"Open Sans";
+
+}
+
+.settings_app
+{
+	margin-top:50px;
+	padding-bottom:10px;
+	color: #FFF;
+	font-size:22px;
+	text-align:center;
+	width:100%;
+	font-family:"Palatino Linotype";
+}
+
+
+
+
+
+
+
+.settings_secu{
+	width:100%;
+	background-color:#FFF;
+    margin:81px auto 0 auto;
+    position:absolute; 
+    z-index:1;
+    top:0px; bottom:84px; left:0;
+    width:100%;
+    background:#aaa;
+    overflow:auto;
+
+}
+.settings_taxisecu{
+	width:100%;
+	height:auto;
+	padding:0px 0px 0px 0px;
+    margin: 0 auto 0 auto;
+	}
+	
+.settings_taxisecu_lt{
+	width:20%;
+	height:45px;
+	padding:10px 0px 10px 15px;
+	 margin: 0 auto 0 auto;
+	float:left;
+    line-height:22px;
+	border-bottom:1px solid #acacac;
+	color:#fff;
+}
+.settings_taxisecu_rt{
+	width:80%;
+	height:45px;
+	padding:10px 0px 10px 5px;
+    margin: 0 auto 0 auto;
+	float:left;
+	line-height:22px;
+	border-bottom:1px solid #acacac;
+	color:#fff;
 }
 
 
@@ -501,7 +658,71 @@ color: #FFFFFF;
   margin-left:7px;
   float: left;
   
-}	
+}
+
+.default_phonebook_lt{
+	width:70%;
+	height:55px;
+	padding:5px 0px 5px 10px;
+	background-color:#FFF;
+    margin: 0 auto 0 auto;
+	float:left;
+    line-height:22px;
+	border-bottom:1px solid #acacac;
+}
+.default_phonebook_rt{
+	width:15%;
+	height:55px;
+	padding:23px 0px 5px 5px;
+	background-color:#FFF;
+    margin: 0 auto 0 auto;
+	float:left;
+	line-height:22px;
+	border-bottom:1px solid #acacac;
+}
+
+.default_phonebook_rt1{
+	width:15%;
+	height:55px;
+	padding:16px 0px 5px 5px;
+	background-color:#FFF;
+    margin: 0 auto 0 auto;
+	float:left;
+	line-height:22px;
+	border-bottom:1px solid #acacac;
+}
+.default_phonebook_color_lt{
+	width:70%;
+	height:55px;
+	padding:5px 0px 5px 10px;
+	margin: 0 auto 0 auto;
+	background-color:#f6f4f4;
+	float:left;
+    line-height:22px;
+	border-bottom:1px solid #acacac;
+}
+.default_phonebook_color_rt{
+	width:15%;
+	height:55px;
+	padding:23px 0px 5px 5px;
+    margin: 0 auto 0 auto;
+	background-color:#f6f4f4;
+	float:left;
+	line-height:22px;
+	border-bottom:1px solid #acacac;
+}
+.default_phonebook_color_rt1{
+	width:15%;
+	height:55px;
+	padding:16px 0px 5px 5px;
+    margin: 0 auto 0 auto;
+	background-color:#f6f4f4;
+	float:left;
+	line-height:22px;
+	border-bottom:1px solid #acacac;
+}
+
+	
 }
 @media (max-width:496px){
 
@@ -585,14 +806,76 @@ color: #FFFFFF;
   line-height: 20px;
   padding: 5px 9px 5px 8px;
 }
+.default_phonebook_lt{
+	width:65%;
+	height:55px;
+	padding:5px 0px 5px 10px;
+	background-color:#FFF;
+    margin: 0 auto 0 auto;
+	float:left;
+    line-height:22px;
+	border-bottom:1px solid #acacac;
+}
+.default_phonebook_rt{
+	width:18%;
+	height:55px;
+	padding:23px 0px 5px 5px;
+	background-color:#FFF;
+    margin: 0 auto 0 auto;
+	float:left;
+	line-height:22px;
+	border-bottom:1px solid #acacac;
+}
+
+.default_phonebook_rt1{
+	width:17%;
+	height:55px;
+	padding:16px 0px 5px 5px;
+	background-color:#FFF;
+    margin: 0 auto 0 auto;
+	float:left;
+	line-height:22px;
+	border-bottom:1px solid #acacac;
+}
+
+
+.default_phonebook_color_lt{
+	width:65%;
+	height:55px;
+	padding:5px 0px 5px 10px;
+	margin: 0 auto 0 auto;
+	background-color:#f6f4f4;
+	float:left;
+    line-height:22px;
+	border-bottom:1px solid #acacac;
+}
+.default_phonebook_color_rt{
+	width:18%;
+	height:55px;
+	padding:23px 0px 5px 5px;
+    margin: 0 auto 0 auto;
+	background-color:#f6f4f4;
+	float:left;
+	line-height:22px;
+	border-bottom:1px solid #acacac;
+}
+.default_phonebook_color_rt1{
+	width:17%;
+	height:55px;
+	padding:16px 0px 5px 5px;
+    margin: 0 auto 0 auto;
+	background-color:#f6f4f4;
+	float:left;
+	line-height:22px;
+	border-bottom:1px solid #acacac;
 }
 
 
 
+}
+
+
 @media (max-width:346px){
-
-
-
 .mob_txt {
   color: #FFFFFF;
   border-color: #fed136;
@@ -988,6 +1271,16 @@ height:65px !important;
   width: 100%;
   font-family: "Palatino Linotype";
 }
+.settings_app
+{
+	margin-top:50px;
+	color: #FFF;
+	font-size:20px;
+	text-align:center;
+	width:100%;
+	font-family:"Palatino Linotype";
+	
+}
 
 }
 
@@ -1038,20 +1331,9 @@ height:50px !important;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 	.modalDialog {
 		position: fixed;
-		font-family: Arial, Helvetica, sans-serif;
+		font-family: "Open Sans";
 		top: 0;
 		right: 0;
 		bottom: 0;
