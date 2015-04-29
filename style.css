@@ -63,6 +63,19 @@ z-index:999;
 	font-family:"Palatino Linotype";
 	
 }
+
+.about_profile
+{
+	margin-top:10px;
+	margin-bottom:10px;
+	color: #FFF;
+	font-size:14px;
+	width:100%;
+	font-family:"Open Sans";
+	line-height:22px;
+	text-align:justify;
+	
+}
 .contant_home
 {
 	color: #000000;
@@ -94,6 +107,7 @@ clear:both;
 	text-shadow:none;
 	font-family:"Palatino Linotype";
 	cursor:pointer;
+	margin-top:15px;
 	
 }
 
@@ -256,7 +270,7 @@ background: -o-linear-gradient(top, #fdfdfd 10%,#969495 95%); /* Opera 11.10+ */
 background: -ms-linear-gradient(top, #fdfdfd 10%,#969495 95%); /* IE10+ */
 background: linear-gradient(to bottom, #fdfdfd 10%,#969495 95%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#969495',GradientType=0 ); /* IE6-9 */
-  height: 68px;
+  height:50px;
     margin-top:13px;
     padding-top: 0.1px;
 	color:#fff ;
@@ -277,7 +291,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', end
 .default_phone{
 	width:100%;
 	background-color:#FFF;
-    margin:81px auto 0 auto;
+    margin:95px auto 0 auto;
     position:absolute; 
     z-index:1;
     top:0px; bottom:84px; left:0;
@@ -440,6 +454,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', end
 	border-bottom:1px solid #acacac;
 	color:#fff;
 }
+.ui-body-c .ui-link {
+  color: #fff;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 16px !important;
+}
 
 
 @media (min-width: 1200px) {
@@ -548,6 +568,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', end
 	text-shadow:none;
 	font-family:"Palatino Linotype";
 	cursor:pointer;
+	margin-top:15px;
 }
 .navbar-fixed-bottom, .navbar-fixed-top {
     left: 0;
