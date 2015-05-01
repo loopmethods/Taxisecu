@@ -69,7 +69,7 @@ z-index:999;
 	margin-top:10px;
 	margin-bottom:10px;
 	color: #FFF;
-	font-size:14px;
+	font-size:15px;
 	width:100%;
 	font-family:"Open Sans";
 	line-height:22px;
@@ -210,7 +210,7 @@ clear:both;
 		float:left; font-weight:bold;
 		font-size:16px;
 		font-family:"Open Sans";
-
+	
 }
 
 .favourate_change_color{
@@ -346,6 +346,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', end
 		float:left; font-weight:bold;
 		font-size:16px;
 		font-family:"Open Sans";
+		width:180px;
+		height:22px;
+		overflow:hidden;
 
 }
 
@@ -395,6 +398,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', end
 		float:left; font-weight:bold;
 		font-size:16px;
 		font-family:"Open Sans";
+	
+		
 
 }
 
@@ -435,7 +440,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', end
 	}
 	
 .settings_taxisecu_lt{
-	width:20%;
+	width:17%;
 	height:45px;
 	padding:10px 0px 10px 15px;
 	 margin: 0 auto 0 auto;
@@ -445,7 +450,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', end
 	color:#fff;
 }
 .settings_taxisecu_rt{
-	width:80%;
+	width:83%;
 	height:45px;
 	padding:10px 0px 10px 5px;
     margin: 0 auto 0 auto;
@@ -461,6 +466,200 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', end
   font-size: 16px !important;
 }
 
+
+
+
+
+
+
+.ride_history{
+	width:100%;
+	background-color:#FFF;
+    margin:31px auto 0 auto;
+    position:absolute; 
+    z-index:1;
+    top:0px; bottom:84px; left:0;
+    width:100%;
+    background:#aaa;
+    overflow:auto;
+
+}
+.my_ride_history{
+	width:100%;
+	height:auto;
+	padding:0px 0px 0px 0px;
+	background-color:#FFF;
+    margin: 0 auto 0 auto;
+	overflow:hidden;
+	
+
+	}
+	
+.my_ride_history_lt{
+	width:35%;
+	height:auto;
+	padding:10px 2px 5px 5px;
+	background-color:#FFF;
+    margin: 0 auto 0 auto;
+	float:left;
+    line-height:22px;
+	
+	
+	
+}
+.my_ride_history_rt{
+	width:31%;
+	height:auto;
+	padding:10px 5px 4px 5px;
+	background-color:#FFF;
+    margin: 0 auto 0 auto;
+	float:left;
+	line-height:22px;
+	min-height:100%;
+		overflow:hidden;
+	word-wrap:break-word;
+	margin:0px;
+	border-left:1px solid #acacac;
+	
+}
+
+.my_ride_history_rt1{
+	width:34%;
+	height:auto;
+	padding:10px 5px 4px 5px;
+	background-color:#FFF;
+    margin: 0 auto 0 auto;
+	float:left;
+	line-height:22px;
+	overflow:hidden;
+	word-wrap:break-word;
+min-height:100%;
+	border-left:1px solid #acacac;
+}
+
+.my_ride_history_lt span{
+	    margin: 0 auto 0 auto;
+		padding:0px 0px 0px 0px;
+		float:left; font-weight:bold;
+		font-size:14px;
+		font-family:"Open Sans";
+		word-wrap:break-word;
+		
+
+}
+.my_ride_history_rt span{
+	    margin: 0 auto 0 auto;
+		padding:0px 0px 0px 0px;
+		float:left; font-weight:bold;
+		font-size:14px;
+		font-family:"Open Sans";
+	
+		word-wrap:break-word;
+		
+
+}
+
+.my_ride_history_rt1 span{
+	    margin: 0 auto 0 auto;
+		padding:0px 0px 0px 0px;
+		float:left; font-weight:bold;
+		font-size:14px;
+		font-family:"Open Sans";
+	
+		word-wrap:break-word;
+		
+
+}
+
+
+
+.my_color_history{
+	width:100%;
+	height:auto;
+	padding:0px 0px 0px 0px;
+	background-color:#f6f4f4;
+    margin: 0 auto 0 auto;
+	overflow:hidden;
+	
+
+	}
+
+
+.my_color_history_lt{
+	width:35%;
+	height:auto;
+	padding:10px 2px 5px 5px;
+	background-color:#f6f4f4;
+    margin: 0 auto 0 auto;
+	float:left;
+    line-height:22px;
+	
+	
+	
+}
+.my_color_history_rt{
+	width:31%;
+	height:auto;
+	padding:10px 5px 4px 5px;
+	background-color:#f6f4f4;
+    margin: 0 auto 0 auto;
+	float:left;
+	line-height:22px;
+	min-height:100%;
+		overflow:hidden;
+	word-wrap:break-word;
+	margin:0px;
+	border-left:1px solid #acacac;
+	
+}
+
+.my_color_history_rt1{
+	width:34%;
+	height:auto;
+	padding:10px 5px 4px 5px;
+	background-color:#f6f4f4;
+    margin: 0 auto 0 auto;
+	float:left;
+	line-height:22px;
+	overflow:hidden;
+	word-wrap:break-word;
+min-height:100%;
+	border-left:1px solid #acacac;
+}
+
+.my_color_history_lt span{
+	    margin: 0 auto 0 auto;
+		padding:0px 0px 0px 0px;
+		float:left; font-weight:bold;
+		font-size:14px;
+		font-family:"Open Sans";
+		word-wrap:break-word;
+		
+
+}
+.my_color_history_rt span{
+	    margin: 0 auto 0 auto;
+		padding:0px 0px 0px 0px;
+		float:left; font-weight:bold;
+		font-size:14px;
+		font-family:"Open Sans";
+	
+		word-wrap:break-word;
+		
+
+}
+
+.my_color_history_rt1 span{
+	    margin: 0 auto 0 auto;
+		padding:0px 0px 0px 0px;
+		float:left; font-weight:bold;
+		font-size:14px;
+		font-family:"Open Sans";
+	
+		word-wrap:break-word;
+		
+
+}
 
 @media (min-width: 1200px) {
 .login_screen{
