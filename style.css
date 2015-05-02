@@ -414,12 +414,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', end
 	font-family:"Palatino Linotype";
 }
 
-
-
-
-
-
-
 .settings_secu{
 	width:100%;
 	background-color:#FFF;
@@ -466,107 +460,96 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', end
   font-size: 16px !important;
 }
 
-
-
-
-
-
-
-.ride_history{
-	width:100%;
+.riding_history_main {
+width:100%;
 	background-color:#FFF;
-    margin:31px auto 0 auto;
+    margin:32px auto 0 auto;
     position:absolute; 
     z-index:1;
-    top:0px; bottom:84px; left:0;
+    top:0px; bottom:86px; left:0;
     width:100%;
     background:#aaa;
     overflow:auto;
-
-}
-.my_ride_history{
-	width:100%;
-	height:auto;
-	padding:0px 0px 0px 0px;
-	background-color:#FFF;
-    margin: 0 auto 0 auto;
-	overflow:hidden;
 	
-
 	}
-	
-.my_ride_history_lt{
-	width:35%;
-	height:auto;
-	padding:10px 2px 5px 5px;
+.riding_history {
+    display: table;
+	width:100%;
 	background-color:#FFF;
-    margin: 0 auto 0 auto;
-	float:left;
-    line-height:22px;
-	
-	
-	
-}
-.my_ride_history_rt{
-	width:31%;
-	height:auto;
-	padding:10px 5px 4px 5px;
-	background-color:#FFF;
-    margin: 0 auto 0 auto;
-	float:left;
-	line-height:22px;
-	min-height:100%;
-		overflow:hidden;
-	word-wrap:break-word;
-	margin:0px;
-	border-left:1px solid #acacac;
-	
-}
+	margin:0px auto 0px auto;
+	padding:0px;
 
-.my_ride_history_rt1{
-	width:34%;
-	height:auto;
-	padding:10px 5px 4px 5px;
-	background-color:#FFF;
-    margin: 0 auto 0 auto;
-	float:left;
-	line-height:22px;
-	overflow:hidden;
-	word-wrap:break-word;
-min-height:100%;
-	border-left:1px solid #acacac;
-}
 
-.my_ride_history_lt span{
-	    margin: 0 auto 0 auto;
+	
+	}
+
+	.riding_history_column {
+
+	  display: table-cell;
+	   border-top-color: #acacac;    
+    border-top-style: solid;
+    border-top-width: 1px;
+  border-right-color: #acacac;    
+    border-right-style: solid;
+    border-right-width: 1px;
+	 padding:5px;
+    width:33%;
+  
+	}
+
+
+
+
+ .riding_history_column span{
+	    margin: 0px auto 0 auto;
 		padding:0px 0px 0px 0px;
-		float:left; font-weight:bold;
+		font-weight:bold;
 		font-size:14px;
 		font-family:"Open Sans";
 		word-wrap:break-word;
 		
-
-}
-.my_ride_history_rt span{
-	    margin: 0 auto 0 auto;
-		padding:0px 0px 0px 0px;
-		float:left; font-weight:bold;
-		font-size:14px;
-		font-family:"Open Sans";
 	
-		word-wrap:break-word;
 		
 
 }
 
-.my_ride_history_rt1 span{
-	    margin: 0 auto 0 auto;
+
+.riding_history_color {
+    display: table;
+	width:100%;
+	background-color:#f6f4f4;
+	margin:0px auto 0px auto;
+	padding:0px;
+
+	
+	}
+
+	.riding_history_column_color {
+
+	  display: table-cell;
+border-top-color: #acacac; 
+    border-top-style: solid;
+    border-top-width: 1px;   
+   border-right-color: #acacac;    
+    border-right-style: solid;
+    border-right-width: 1px;
+  padding:5px;
+  width:33%;
+  
+  
+	}
+
+
+
+
+ .riding_history_column_color span{
+	    margin: 0px auto 0 auto;
 		padding:0px 0px 0px 0px;
-		float:left; font-weight:bold;
+		font-weight:bold;
 		font-size:14px;
 		font-family:"Open Sans";
-	
 		word-wrap:break-word;
+
 		
 
 }
@@ -584,78 +567,12 @@ min-height:100%;
 
 	}
 
-
-.my_color_history_lt{
-	width:35%;
-	height:auto;
-	padding:10px 2px 5px 5px;
-	background-color:#f6f4f4;
-    margin: 0 auto 0 auto;
-	float:left;
-    line-height:22px;
-	
-	
-	
-}
-.my_color_history_rt{
-	width:31%;
-	height:auto;
-	padding:10px 5px 4px 5px;
-	background-color:#f6f4f4;
-    margin: 0 auto 0 auto;
-	float:left;
-	line-height:22px;
-	min-height:100%;
-		overflow:hidden;
-	word-wrap:break-word;
-	margin:0px;
-	border-left:1px solid #acacac;
-	
-}
-
-.my_color_history_rt1{
-	width:34%;
-	height:auto;
-	padding:10px 5px 4px 5px;
-	background-color:#f6f4f4;
-    margin: 0 auto 0 auto;
-	float:left;
-	line-height:22px;
-	overflow:hidden;
-	word-wrap:break-word;
-min-height:100%;
-	border-left:1px solid #acacac;
-}
-
 .my_color_history_lt span{
 	    margin: 0 auto 0 auto;
 		padding:0px 0px 0px 0px;
 		float:left; font-weight:bold;
 		font-size:14px;
 		font-family:"Open Sans";
-		word-wrap:break-word;
-		
-
-}
-.my_color_history_rt span{
-	    margin: 0 auto 0 auto;
-		padding:0px 0px 0px 0px;
-		float:left; font-weight:bold;
-		font-size:14px;
-		font-family:"Open Sans";
-	
-		word-wrap:break-word;
-		
-
-}
-
-.my_color_history_rt1 span{
-	    margin: 0 auto 0 auto;
-		padding:0px 0px 0px 0px;
-		float:left; font-weight:bold;
-		font-size:14px;
-		font-family:"Open Sans";
-	
 		word-wrap:break-word;
 		
 
@@ -1183,7 +1100,7 @@ color: #FFFFFF;
 	left: 200px;
 }
 .ui-block-a-b-c, p{
-	line-height:35px;
+	line-height:20px;
 	
 }
 

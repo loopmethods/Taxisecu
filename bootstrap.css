@@ -370,7 +370,7 @@ hr {
 }
 
 p {
-  margin: 0 0 10px;
+  margin: 0 0 0px;
 }
 
 .lead {
@@ -475,10 +475,11 @@ h4,
 h5,
 h6 {
   margin-top: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   clear:both; 
   float:left; 
   font-size:12px;
+
 }
 
 h1,
