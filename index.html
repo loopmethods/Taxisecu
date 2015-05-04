@@ -13,6 +13,32 @@
 <script src="jquery-mobile/jquery.min.js"></script>
 <script src="jquery-mobile/bootstrap.min.js"></script>
 <script type="text/javascript" src="jquery-mobile/script.js"></script>
+<script type="text/javascript" src="jquery-mobile/jquery-latest.min.js"></script>
+<script>
+		( function( $ ) {
+	$( document ).ready(function() {
+	$('#student-list > ul > li > a').click(function() {
+	  $('#student-list li').removeClass('active');
+	  $(this).closest('li').addClass('active');	
+	  var checkElement = $(this).next();
+	  if((checkElement.is('ul')) && (checkElement.is(':visible'))) {
+		$(this).closest('li').removeClass('active');
+		checkElement.slideUp('normal');
+	  }
+	  if((checkElement.is('ul')) && (!checkElement.is(':visible'))) {
+		$('#student-list ul ul:visible').slideUp('normal');
+		checkElement.slideDown('normal');
+	  }
+	  if($(this).closest('li').find('ul').children().length == 0) {
+		return true;
+	  } else {
+		return false;	
+	  }		
+	});
+	});
+	} )( jQuery );
+</script>
+
 
 </head>
 <body>
@@ -29,6 +55,8 @@
             <br>
           </div>
         </div>
+        
+        
       </div>
     </div>
   </div>
@@ -777,245 +805,50 @@ Taxisecu was developed to prevent, fight and put a stop to this long lasting and
         </div>
    <div data-role="ui-content_fav">
       <div class="riding_history_main">
-    <div class="riding_history">
-
-	    <div class="riding_history_column"><span> 30April 2015 </span>
-        
-        </div>
-          <div class="riding_history_column"><span>Ahmedabad</span>
-
-          <p>11:12am</p>
-          </div>
-
-<div class="riding_history_column"><span>Bangalore</span>
-
-<p>11:12am</p>
-
-</div>
-	   
-	</div>
+  
+    <div class="wraper">
+	
+    
+    	
  
-<div class="riding_history_color">
+        	
+                <div id='student-list'>
+                    <ul>
+                       
+                       
+                     
+                     <li class='has-sub'><a href='#'><span>30-May-2015</span></a>
+                          <ul>
+                              <li><div class="duamont"><span>Ahmedabad</span><p>10:05AM</p></div></li>
+                               <li><div class="duamont"><span>New Delhi</span><p>12:55PM</p></div></li>
+                             
+                             
+                          </ul>
+                       </li>
+                       
+                       <li class='has-sub'><a href='#'><span>10-June-2015</span></a>
+                          <ul>
+                              <li><div class="duamont"><span>Due Amount</span><p>26643.55</p></div></li>
+                               <li><div class="duamont"><span>Due Amount</span><p>:  26643.55</p></div></li>
+                             
+                             
+                          </ul>
+                       </li>
+                       
+                       <li class='has-sub'><a href='#'><span>25-Feb-2015</span></a>
+                          <ul>
+                              <li><div class="duamont"><span>Due Amount</span><p>:  26643.55</p></div></li>
+                               <li><div class="duamont"><span>Due Amount</span><p>:  26643.55</p></div></li>
+                             
+                             
+                          </ul>
+                       </li>
+                      </ul>
+                </div>
+                
 
-	    <div class="riding_history_column_color"><span> 30April 2015 </span>
-        
-        </div>
-          <div class="riding_history_column_color"><span>Ahmedabad</span>
-
-          <p>11:12am</p>
-          </div>
-
-<div class="riding_history_column_color"><span>Bangalore</span>
-
-<p>11:12am</p>
-
-</div>
-	   
-	</div>
- <div class="riding_history">
-
-	    <div class="riding_history_column"><span> 30April 2015 </span>
-        
-        </div>
-          <div class="riding_history_column"><span>Ahmedabad</span>
-
-          <p>11:12am</p>
-          </div>
-
-<div class="riding_history_column"><span>Bangalore</span>
-
-<p>11:12am</p>
-
-</div>
-	   
-	</div>
-    <div class="riding_history_color">
-
-	    <div class="riding_history_column_color"><span> 30April 2015 </span>
-        
-        </div>
-          <div class="riding_history_column_color"><span>Ahmedabad</span>
-
-          <p>11:12am</p>
-          </div>
-
-<div class="riding_history_column_color"><span>Bangalore</span>
-
-<p>11:12am</p>
 
 </div>
-	   
-	</div>   
-     <div class="riding_history">
-
-	    <div class="riding_history_column"><span> 30April 2015 </span>
-        
-        </div>
-          <div class="riding_history_column"><span>Ahmedabad</span>
-
-          <p>11:12am</p>
-          </div>
-
-<div class="riding_history_column"><span>Bangalore</span>
-
-<p>11:12am</p>
-
-</div>
-	   
-	</div>
-    <div class="riding_history_color">
-
-	    <div class="riding_history_column_color"><span> 30April 2015 </span>
-        
-        </div>
-          <div class="riding_history_column_color"><span>Ahmedabad</span>
-
-          <p>11:12am</p>
-          </div>
-
-<div class="riding_history_column_color"><span>Bangalore</span>
-
-<p>11:12am</p>
-
-</div>
-	   
-	</div>  
-     <div class="riding_history">
-
-	    <div class="riding_history_column"><span> 30April 2015 </span>
-        
-        </div>
-          <div class="riding_history_column"><span>Ahmedabad</span>
-
-          <p>11:12am</p>
-          </div>
-
-<div class="riding_history_column"><span>Bangalore</span>
-
-<p>11:12am</p>
-
-</div>
-	   
-	</div>
-    <div class="riding_history_color">
-
-	    <div class="riding_history_column_color"><span> 30April 2015 </span>
-        
-        </div>
-          <div class="riding_history_column_color"><span>Ahmedabad</span>
-
-          <p>11:12am</p>
-          </div>
-
-<div class="riding_history_column_color"><span>Bangalore</span>
-
-<p>11:12am</p>
-
-</div>
-	   
-	</div>  
-     <div class="riding_history">
-
-	    <div class="riding_history_column"><span> 30April 2015 </span>
-        
-        </div>
-          <div class="riding_history_column"><span>Ahmedabad</span>
-
-          <p>11:12am</p>
-          </div>
-
-<div class="riding_history_column"><span>Bangalore</span>
-
-<p>11:12am</p>
-
-</div>
-	   
-	</div>
-    <div class="riding_history_color">
-
-	    <div class="riding_history_column_color"><span> 30April 2015 </span>
-        
-        </div>
-          <div class="riding_history_column_color"><span>Ahmedabad</span>
-
-          <p>11:12am</p>
-          </div>
-
-<div class="riding_history_column_color"><span>Bangalore</span>
-
-<p>11:12am</p>
-
-</div>
-	   
-	</div>  
-     <div class="riding_history">
-
-	    <div class="riding_history_column"><span> 30April 2015 </span>
-        
-        </div>
-          <div class="riding_history_column"><span>Ahmedabad</span>
-
-          <p>11:12am</p>
-          </div>
-
-<div class="riding_history_column"><span>Bangalore</span>
-
-<p>11:12am</p>
-
-</div>
-	   
-	</div>
-    <div class="riding_history_color">
-
-	    <div class="riding_history_column_color"><span> 30April 2015 </span>
-        
-        </div>
-          <div class="riding_history_column_color"><span>Ahmedabad</span>
-
-          <p>11:12am</p>
-          </div>
-
-<div class="riding_history_column_color"><span>Bangalore</span>
-
-<p>11:12am</p>
-
-</div>
-	   
-	</div>  
-     <div class="riding_history">
-
-	    <div class="riding_history_column"><span> 30April 2015 </span>
-        
-        </div>
-          <div class="riding_history_column"><span>Ahmedabad</span>
-
-          <p>11:12am</p>
-          </div>
-
-<div class="riding_history_column"><span>Bangalore</span>
-
-<p>11:12am</p>
-
-</div>
-	   
-	</div>
-    <div class="riding_history_color">
-
-	    <div class="riding_history_column_color"><span> 30April 2015 </span>
-        
-        </div>
-          <div class="riding_history_column_color"><span>Ahmedabad</span>
-
-          <p>11:12am</p>
-          </div>
-
-<div class="riding_history_column_color"><span>Bangalore</span>
-
-<p>11:12am</p>
-
-</div>
-	   
-	</div>  
     </div>
  
     <nav class="navbar navbar-default navbar-fixed-bottom" style="background-color:#000;">

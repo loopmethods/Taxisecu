@@ -492,7 +492,7 @@ width:100%;
   border-right-color: #acacac;    
     border-right-style: solid;
     border-right-width: 1px;
-	 padding:5px;
+	 padding:0px;
     width:33%;
   
 	}
@@ -533,7 +533,7 @@ border-top-color: #acacac;
    border-right-color: #acacac;    
     border-right-style: solid;
     border-right-width: 1px;
-  padding:5px;
+  padding:0px;
   width:33%;
   
   
@@ -1521,3 +1521,437 @@ height:50px !important;
 	}
 
 	.close:hover { background: #00d9ff; }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	@media (max-width:1366px){
+	.wraper{
+		width:100%;
+		float:left;
+	}
+	header{
+		float:left;
+		width:100%;
+	}
+	.header-top {
+	  float: left;
+	  width: 100%;
+	  background: none;
+	  position: fixed;
+	  z-index: 999;
+	}
+	.header-btm {
+	  float: left;
+	  width: 100%;
+	  margin-top: 32px;
+	}
+	.user-name {
+	  float: left;
+	  color: #fdca00;
+	  font-size: 15px;
+	  padding-left: 5px;
+	  padding-top:5px;
+	}
+	.top-icon{
+		float:right;
+	}
+	.noti {
+	  float: left;
+	  color: #fff;
+	  font-size: 20px;
+	  padding: 6px 8px;
+	}
+	.profile {
+	  float: left;
+	  color: #fff;
+	  font-size: 20px;
+	  padding: 6px 8px;
+	}
+	.profile a{
+		color:#fff;
+	}
+	#top-menu {
+	  float: left;
+	  color: #fff;
+	  font-size: 20px;
+	  padding: 6px 8px;
+	  display:none;
+	}
+	
+	.header-cont {
+		  float: right;
+		  padding: 10px;
+		  margin: 18px 0px;
+	}
+	.cont-num {
+	  background: url(../images/call.png) no-repeat;
+	  float: left;
+	  font-size: 15px;
+	  padding-left: 28px;
+	}
+	.cont-mail{
+	  background: url(../images/mail.png) no-repeat;
+	  float: left;
+	  font-size: 15px;
+	  padding-left: 28px;
+	  clear:both;
+	  margin-top:10px;
+	}
+	nav {
+		float: left;
+		width: 100%;
+		background: #013c5c;
+	}
+	.social-top {
+	  float: left;
+	  list-style: none;
+	  padding: 0px;
+	  margin: 0px;
+	}
+	.social-top li{
+		float:left;
+	}
+	.social-top li a {
+	  float: left;
+	  padding: 15px 20px;
+	  color: #fff;
+	  font-size: 20px;
+	  border-right:1px solid #fff;
+	  transition:0.5s;
+	  -weblit-transition:0.5s;
+	  -ms-transition:0.5s;
+	  -o-transition:0.5s;
+	  -moz-transition:0.5s;
+	}
+	.social-top li a:hover{
+		background: #f88d05;
+	}
+	.menu-tab {
+	  background: url(../images/menu-icon.jpg) no-repeat 0px;
+	  float: right;
+	  height: 40px;
+	  width: 51px;
+	  padding: 5px 0px;
+	  margin-right: 7px;
+	}
+	
+	#student-list,
+	#student-list ul,
+	#student-list li,
+	#student-list a {
+	  margin: 0;
+	  padding: 0;
+	  border: 0;
+	  list-style: none;
+	  font-weight: normal;
+	  text-decoration: none;
+	  line-height: 1;
+	  font-family: 'Open Sans', sans-serif;
+	  font-size: 14px;
+	  position: relative;
+	}
+	#student-list {
+	  width: 100%;
+	  float: left;
+	}
+	#student-list a {
+	  line-height: 1.3;
+	}
+	#student-list > ul > li:first-child {
+	
+	}
+	#student-list > ul > li:first-child > a {
+	  padding: 3px 9px;
+	  font-size: 14px;
+	  padding-right:-1px;
+	}
+	#student-list > ul > li:first-child > a > span {
+	  padding: 0;
+	}
+	#student-list > ul > li:first-child:hover {
+	}
+	#student-list > ul > li {
+	  background:#ffcc00;
+	  float:left;
+	  width:100%;
+	}
+	#student-list > ul > li:hover {
+	}
+	#student-list > ul > li > a {
+	  font-size: 14px;
+	  display: block;
+	  background: url(images/pattern.png) top left repeat;
+	  color: #333;
+	  border-bottom: 1px solid #333;
+	  float:left;
+	  width: 100%;
+	  padding: 4px 10px;
+	}
+	#student-list > ul > li > a > span {
+	  display: block;
+	  padding: 12px 10px;
+	  -webkit-border-radius: 4px;
+	  -moz-border-radius: 4px;
+	  border-radius: 4px;
+	}
+	#student-list > ul > li > a:hover {
+	  text-decoration: none;
+	}
+	#student-list > ul > li.active {
+	  border-bottom: none;
+	}
+	#student-list > ul > li.has-sub > a span {
+	  background: url(images/icon_plus.png) 96% center no-repeat;
+	  padding: 11px 0px;
+	  float: left;
+	  width:100%;
+	}
+	#student-list > ul > li.has-sub.active > a span {
+	  background: url(images/icon_minus.png) 96% center no-repeat;
+	}
+	/* Sub menu */
+	#student-list ul ul {
+	  display: none;
+	  background: #fff;
+	  position:relative;
+	  z-index:9;
+	  float: left;
+	  width: 100%;
+	}
+	#student-list ul ul li {
+	  padding: 15px 10px;
+	  border-right: 1px solid #d4d4d4;
+	  border-top: none;
+	  background: #f7f7f7;
+	  float: left;
+	  width: 50%;
+	
+	}
+	#student-list ul ul li:last-child {
+	  border-bottom: none;
+	}
+	#student-list ul ul a {
+	  padding: 10px 10px 10px 25px;
+	  display: block;
+	  color: #676767;
+	  font-size: 12px;
+	  font-weight: normal;
+	}
+	#student-list ul ul a:before {
+	}
+	#student-list ul ul a:hover {
+	  color: #e94f31;
+	}
+	.content {
+	  float: left;
+	  width: 100%;
+	}
+	.dashboard-title {
+	  float: left;
+	  padding-left: 10px;
+	  font-size: 19px;
+	  margin: 5px 0px;
+	  margin-top: 15px;
+	}
+	.dashboard {
+	  float: left;
+	  width: 97.3%;
+	  padding: 0px 10px;
+	}
+	.student-hnding {
+	  float: left;
+	  width: 100%;
+	  background: #013c5c;
+	}
+	
+	.student-hnding p {
+	  float: left;
+	  margin: 0px;
+	  padding: 10px;
+	  color: #fff;
+	}
+	#student-list > ul > li > a p {
+	  float: left;
+	  margin: 0px;
+	  padding: 0px 10px;
+	}
+	.dudate {
+	  float: left;
+	  font-size: 14px;
+	  font-weight: 600;
+	  color: #424242;
+	  width: 50%;
+	}
+	.dudate span {
+	  float: left;
+	  width: 33%;
+	}
+	.dudate p {
+	  float: left;
+	  margin: 0px;
+	}
+	.duday {
+	  float: left;
+	  font-size: 14px;
+	  font-weight: 600;
+	  color: #424242;
+	  width: 50%;
+	}
+	.duday span {
+	  float: left;
+	  width: 33%;
+	}
+	.duday p {
+	  float: left;
+	  margin: 0px;
+	}
+	.duamont {
+	  float: left;
+	  font-size: 14px;
+	  font-weight: 600;
+	  color: #424242;
+	  width:100%;
+	}
+	.duamont span {
+	  float: left;
+	  width: 100%;
+	}
+	.duamont p {
+	  float: left;
+	  margin: 0px;
+	}
+	.detals-btn {
+	  float: right;
+	}
+	.stud-details {
+	  float: left;
+	  background: #013c5c;
+	  border-radius: 5px;
+	  -moz-border-radius: 5px;
+	  -webkit-border-radius: 5px;
+	  -ms-border-radius: 5px;
+	  -o-border-radius: 5px;
+	  margin-right:10px;
+	}
+	.stud-details a {
+	  padding: 6px 14px !important;
+	  color: #fff !important;
+	  font-size: 14px !important;
+	}
+	.stud-pay {
+	  float: left;
+	  background: #013c5c;
+	  border-radius: 5px;
+	  -moz-border-radius: 5px;
+	  -webkit-border-radius: 5px;
+	  -ms-border-radius: 5px;
+	  -o-border-radius: 5px;
+	  
+	}
+	.stud-pay a {
+	  padding: 6px 14px !important;
+	  color: #fff !important;
+	  font-size: 14px !important;
+	}
+	.student-pic {
+	  background: url(../images/user-pic.png) no-repeat 0px;
+	  float: left;
+	  height: 41px;
+	  width: 9%;
+	}
+	.student-pic img{
+		width:100%;
+	}
+	
+	
+	}
+@media (max-width:685px){
+	.stdtn-name{
+		  width: 65%;
+	}
+}
+@media (max-width:570px){
+	.duamont span{
+		  width: 100%;
+	}
+	.dudate span{
+		width: 40%;
+	}
+	.details{
+		max-width:92%;
+	}
+	
+}
+@media ( max-width:550px){
+	.student-pic{
+		min-width:15%;
+	}
+	#student-list > ul > li.has-sub > a span{
+		max-width:100%;
+	}
+	
+}
+@media (max-width:480px){
+	nav{
+		display:none;
+	}
+	#top-menu{
+		display:block;
+	}
+	.top-link-m {
+	  max-width: 85%;
+	  top: 34px;
+	}
+	.dudate{
+		width:100%;
+	}
+	.duday {
+	  width: 100%;
+	  margin-top: 15px;
+	}
+	.dudate span {
+  		width: 30%;
+	}
+	.duday span {
+		  float: left;
+		  width: 30%;
+	}
+	.duamont span {
+ 		 width: 100%;
+	}
+	.detals-btn{
+		width:100%;
+	}
+	.stud-details{
+		width:48.5%;
+	}
+	.stud-pay{
+		width:48.5%;
+	}
+	.stud-details a{
+		padding:10px 14px !important;
+		text-align:center;
+	}
+	.stud-pay a{
+		padding:10px 14px !important;
+		text-align:center;
+	}
+	
+	
+	
+}
