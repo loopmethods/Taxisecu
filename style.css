@@ -1039,7 +1039,7 @@ color: #FFFFFF;
 }
 }
 #menu{
-	transition: all 0.3s ease;
+	transition: all 0.1s ease;
 	position: fixed;
 	width: 0%;
 	top: 0;
@@ -1059,7 +1059,7 @@ color: #FFFFFF;
 	padding: 8px 8px 8px 8px;
 	margin: 8px 8px 8px 8px;
 	border-radius: 5px;
-	transition: all 0.2s ease;
+	transition: all 0.1s ease;
 	
 	
 }
@@ -1081,7 +1081,7 @@ color: #FFFFFF;
   padding-right: 10px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-  transition: all 0.3s ease;
+  transition: all 0.1s ease;
  
 }
 
@@ -1632,11 +1632,11 @@ height:50px !important;
 	  color: #fff;
 	  font-size: 20px;
 	  border-right:1px solid #fff;
-	  transition:0.5s;
-	  -weblit-transition:0.5s;
-	  -ms-transition:0.5s;
-	  -o-transition:0.5s;
-	  -moz-transition:0.5s;
+	  transition:0.1s;
+	  -weblit-transition:0.1s;
+	  -ms-transition:0.1s;
+	  -o-transition:0.1s;
+	  -moz-transition:0.1s;
 	}
 	.social-top li a:hover{
 		background: #f88d05;
