@@ -11,6 +11,7 @@
 
 }
 
+	
 
 .pageh
 {
@@ -435,7 +436,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', end
 	
 .settings_taxisecu_lt{
 	width:17%;
-	height:45px;
+	height:50px;
 	padding:10px 0px 10px 15px;
 	 margin: 0 auto 0 auto;
 	float:left;
@@ -445,7 +446,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', end
 }
 .settings_taxisecu_rt{
 	width:83%;
-	height:45px;
+	height:50px;
 	padding:10px 0px 10px 5px;
     margin: 0 auto 0 auto;
 	float:left;
@@ -457,7 +458,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', end
   color: #fff;
   font-weight: normal;
   text-decoration: none;
-  font-size: 16px !important;
+  font-size: 14px !important;
 }
 
 .riding_history_main {
@@ -1026,7 +1027,7 @@ color: #FFFFFF;
 	
 color: #FFFFFF;
   border-color: #fed136;
-  width: 81%;
+  width: 80%;
   float: left;
   margin-left:5px;
   float: left;
@@ -1383,11 +1384,11 @@ color: #FFFFFF;
   font-size: 18px;
   line-height: 20px;
   color: #777777;
-  padding-left:8px !important;
+  padding-left:3px !important;
 }
 .favourate_bg {
   width: 100%;
-  height:415px;
+  height:auto;
   padding: 0px 0px 20px 0px;
   background-color: #FFF;
   margin: 34px auto 0 auto;
@@ -1396,8 +1397,8 @@ color: #FFFFFF;
 }
 
 .ui-mobile a img,.ui-mobile fieldset{border:0;
-width:66px !important;
-height:65px !important;
+width:60px !important;
+height:60px !important;
 
 }
 .welcome {
@@ -1462,7 +1463,7 @@ height:50px !important;
   font-size: 18px;
   line-height: 20px;
   color: #777777;
-  padding-left: 5px !important;
+  padding-left: 1px !important;
 }
 	
 }
