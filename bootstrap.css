@@ -3215,7 +3215,7 @@ button.close {
   left: 0;
   bottom:0px;
   z-index: 1030;
-  border-width: 0 0 0px;
+  border-width: 0px 0px 0px 0px;
 }
 
 @media (min-width: 768px) {
@@ -3230,9 +3230,9 @@ button.close {
 }
 
 .navbar-fixed-bottom {
-  bottom: 0;
-  position:fixed;
+
   margin-bottom: 0;
+  padding-bottom:0px;
 }
 
 .navbar-brand {
