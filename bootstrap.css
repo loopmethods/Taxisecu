@@ -3237,7 +3237,7 @@ button.close {
 .navbar-brand {
   float: left;
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 0px;
   padding-right:3px;
   font-size: 18px;
   line-height: 20px;
