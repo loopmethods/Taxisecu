@@ -13,7 +13,7 @@
 <description>
 First App
 </description>
-
+<preference name="orientation" value="portrait" />
 <author href="https://example.com" email="you@example.com">
 Your Name
 </author>
