@@ -14,7 +14,24 @@
 First App
 </description>
 <preference name="orientation" value="portrait" />
-<preference name="android-windowSoftInputMode" value="adjustResize"/>
+<preference name="permissions" value="none" />
+    <preference name="phonegap-version" value="3.5.0" />
+    <preference name="orientation" value="default" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="false" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="prerendered-icon" value="false" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="show-splash-screen-spinner" value="false" />
+    <preference name="auto-hide-splash-screen" value="false" />
+    <preference name="disable-cursor" value="false" />
+    <preference name="android-minSdkVersion" value="13" />
+    <preference name="android-windowSoftInputMode" value="adjustResize|stateHidden" />
+    <preference name="android-installLocation" value="auto" />
+    <preference name="SplashScreen" value="splash" />
 <author href="https://example.com" email="you@example.com">
 Your Name
 </author>
