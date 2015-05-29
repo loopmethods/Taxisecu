@@ -14,6 +14,7 @@
 First App
 </description>
 <preference name="orientation" value="portrait" />
+<preference name="android-windowSoftInputMode" value="adjustResize"/>
 <author href="https://example.com" email="you@example.com">
 Your Name
 </author>
