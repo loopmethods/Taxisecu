@@ -14,7 +14,10 @@
 First App
 </description>
 <preference name="orientation" value="portrait" />
-<activity android:configChanges="orientation|keyboardHidden" android:windowSoftInputMode="adjustPan" android:label="@string/app_name" android:name="PhotoGap">
+	<activity
+			android:name=".Activities.MainActivity"
+			android:label="@string/app_name"
+			android:windowSoftInputMode="adjustResize">
 <author href="https://example.com" email="you@example.com">
 Your Name
 </author>
